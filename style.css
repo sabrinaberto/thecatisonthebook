@@ -1,0 +1,164 @@
+
+body {
+  margin: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  font-family: "Segoe UI", sans-serif;
+}
+ 
+nav ul {
+  margin-bottom: 0px !important;
+}
+ 
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+ 
+nav ul li {text-align: center;}
+ 
+header {
+    padding: 3em 3em 0px 3em;
+    text-align: center;
+    background-color: #56868C;
+    color: white;
+}
+ 
+h1 {
+    padding: 2em;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+ 
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+ 
+a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #f4ab82;
+}
+ 
+p , p a , footer a {
+  font-weight: 300;
+}
+ 
+section, footer {
+  padding: 2em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+nav ul li .dropdown-item {
+    padding: 0px;
+
+  }
+
+p {
+  font-size: 1.3em;
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 575.98px) {
+  nav ul li {
+    display: block !important;
+  }
+  nav ul {
+    padding-left: 0px !important;
+  }
+
+@media (min-width: 576px) {
+   nav ul {padding-left: 0px !important;}
+   nav ul li {display: block !important;}
+}
+
+.img_home>img {
+    max-width: 50% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    }
+
+.center {
+  text-align: center;
+}
+
+.pic-container img {
+  margin: 5px;
+}
+
+.carousel {
+  max-height: 540;
+  max-width: 960px;
+  margin:auto;
+}
+
+.carousel>img{
+  max-height:540;
+}
+
+/*CHI SONO*/
+
+.container_spettacolo {
+    margin-top: 2rem;
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    padding-right: 7rem;
+    padding-left: 7rem;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;;
+    letter-spacing: 0.02em;
+}
+
+
+@media (max-width: 768px){
+.container_spettacolo {
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    padding-right: 7rem;
+    padding-left: 7rem;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Roboto', sans-serif;
+}}
+@media (max-width: 767px){
+.container_spettacolo {  
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-family: 'Roboto', sans-serif;
+}}
+
+.storia {
+    padding-top: 5rem;
+    padding: 3rem 1.5rem;
+    text-align: left;
+    width: 50%
+    }
+.section>div>div>img{
+    max-width: 50%;
+}
+.titolo_spettacolo {    
+    padding-top: 0em;
+    margin-bottom: 0em;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+}{}
+
+
+
+
+
+
+
