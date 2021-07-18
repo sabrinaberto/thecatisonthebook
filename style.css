@@ -1,0 +1,190 @@
+
+body {
+  margin: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  font-family: "Segoe UI", sans-serif;
+}
+ 
+nav ul {
+  margin-bottom: 0px !important;
+}
+ 
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+ 
+nav ul li {text-align: center;}
+ 
+header {
+    padding: 3em 3em 0px 3em;
+    text-align: center;
+    background-color: #56868C;
+    color: white;
+}
+ 
+h1 {
+    padding: 1em 2em 1em 2em;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+li>a:hover{
+  text-decoration: none;
+  color: white;
+
+}
+nav>ul>li:hover{
+  background-color: #f4ab82;
+}
+.nav-link {
+    padding: 0rem 0rem !important;
+}
+                                
+                               
+                                /*CAROSELLO*/
+
+a.carousel-control-prev:hover, a.carousel-control-next:hover{
+  background-color: #f4ab82; 
+}
+
+.pic-container img {
+  margin: 5px;
+}
+
+.carousel {
+  max-height: 540;
+  max-width: 960px;
+  margin:auto;
+}
+
+.carousel>img{
+  max-height:540;
+}
+
+p{
+  font-weight: 300;
+}
+ 
+section {
+  padding: 2em 2em 5em 2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.introduzione {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+nav ul li .dropdown-item {
+    padding: 0px;
+
+  }
+
+p {
+  font-size: 1.1em;
+  letter-spacing: 0.02em;
+}
+
+.img_home>img {
+    max-width: 50% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    }
+
+.center {
+  text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+  header{ padding: 3em 0em 0em 0em;}
+  nav ul { padding-left: 0px !important;}
+  nav ul li { display: block !important;}
+  section {width: 100%}
+  h1{padding: 1em 1em 1em 1em;}
+}
+
+h2{
+  padding-bottom: 1em;
+}
+
+@media (max-width: 768px){
+.container_recensione {
+    padding-bottom: 2rem;
+    width: 100%;
+    padding-right: 7rem;
+    padding-left: 7rem;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Roboto', sans-serif;
+}}
+@media (max-width: 767px){
+.container_recensione {  
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-family: 'Roboto', sans-serif;
+}}
+
+
+                          /*CONTAINER RECENSIONI E STORIA*/
+.storia {
+    padding-top: 5rem;
+    padding: 3rem 1.5rem;
+    text-align: left;
+    width: 50%
+    }
+
+.section>div>div>img{
+    max-width: 50%;
+}
+.titolo{    
+    padding-top: 0em;
+    margin-bottom: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+                        /*FOOTER*/
+footer{
+    padding-top: 3em;
+    padding-bottom: 2em !important;
+    text-align: center;
+    background-color: #56868C !important;
+    color: white;
+}
+                    
+                     /*STAR RATE*/
+.checked {
+  color: #f4ab82;
+  }
+
+
+.link_footer{
+  color: white;
+}
+
+.link_footer:hover {
+  color:#f4ab82;
+  text-decoration: none; 
+}
+
+.titolo_documentazione {
+  padding-top: 2em;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-instagram:hover{
+  color: #f4ab82;
+}
