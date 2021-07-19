@@ -46,7 +46,10 @@ nav>ul>li:hover{
 .nav-link {
     padding: 0rem 0rem !important;
 }
-                                
+
+.colorato {
+  background-color: #f4ab82;
+}
                                
                                 /*CAROSELLO*/
 
