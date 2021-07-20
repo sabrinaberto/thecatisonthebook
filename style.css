@@ -191,3 +191,7 @@ footer{
 .fa-instagram:hover{
   color: #f4ab82;
 }
+
+.pic-container{
+  padding-bottom: 4em;
+}
